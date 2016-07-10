@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Common_Mode_Choke
+#
+DEF Common_Mode_Choke U 0 40 Y Y 1 F N
+F0 "U" 0 100 60 H V C CNN
+F1 "Common_Mode_Choke" 0 300 28 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -250 500 250 150 0 1 0 N
+X In+ 1 -450 400 200 R 50 50 1 1 I
+X In- 2 -450 200 200 R 50 50 1 1 I
+X Out+ 3 450 400 200 L 50 50 1 1 I
+X Out- 4 450 200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

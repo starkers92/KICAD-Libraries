@@ -1,0 +1,16 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Heat_Relief
+#
+DEF Heat_Relief T 0 40 Y Y 1 F N
+F0 "T" 50 -50 60 H V C CNN
+F1 "Heat_Relief" 150 100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+X ~ 1 -100 0 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

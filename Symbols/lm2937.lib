@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# lm2937
+#
+DEF lm2937 U 0 40 Y Y 1 F N
+F0 "U" 0 100 60 H V C CNN
+F1 "lm2937" 0 500 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -400 550 400 50 0 1 0 N
+X In 1 -450 200 200 R 50 50 1 1 I
+X Gnd 2 450 350 200 L 50 50 1 1 I
+X Out 3 450 200 200 L 50 50 1 1 I
+X Tab 4 -450 350 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

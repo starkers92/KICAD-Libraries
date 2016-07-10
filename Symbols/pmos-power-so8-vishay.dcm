@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PMOS-power-so8-vishay
+D Transistor N-MOSFET, collector connected to mounting plane (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+#End Doc Library
